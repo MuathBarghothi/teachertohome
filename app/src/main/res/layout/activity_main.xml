@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+
+
+        android:src="@drawable/teacherss2"
+
+        />
+
+    <Button android:id="@+id/regesterteacher"
+    android:layout_width="200dp"
+    android:layout_gravity="center"
+    android:layout_height="30dp"
+    android:layout_marginTop="60dp"
+        android:drawableLeft="@drawable/ic_baseline_person_addss_24"
+
+    android:background="@drawable/button_design"
+    android:text="انشاء حساب استاذ"
+    android:textSize="15dp"
+        android:textColor="@color/cardview_light_background"
+
+    />
+
+    <Button
+    android:id="@+id/regesterstudents"
+    android:layout_width="200dp"
+
+    android:layout_gravity="center"
+    android:layout_height="30dp"
+    android:layout_marginTop="12dp"
+        android:background="@drawable/button_design"
+    android:text="انشاء حساب طالب"
+        android:drawableLeft="@drawable/ic_baseline_person_addss_24"
+    android:textSize="15dp"
+        android:textColor="@color/cardview_light_background"
+
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:text="------------هل تمتلك حساب؟------------"
+        android:textAlignment="center"
+        android:paddingTop="6sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_height="30dp"
+
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_design"
+        android:text="تسجيل دخول"
+        android:textSize="15dp"
+        android:textColor="@color/cardview_light_background"
+
+        />
+</LinearLayout>

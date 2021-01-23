@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "570609630515",
+    "firebase_url": "https://delivery-4c038.firebaseio.com",
+    "project_id": "delivery-4c038",
+    "storage_bucket": "delivery-4c038.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570609630515:android:efb1ac71c0c935ad375246",
+        "android_client_info": {
+          "package_name": "com.mas.muathbarghothi.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570609630515-t1i4a8mgbdo5bp79nc62mb6o7i3he7di.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8GxAvL_ffhXC4ffthu2NRGNhE_Jkh2ko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570609630515-t1i4a8mgbdo5bp79nc62mb6o7i3he7di.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
